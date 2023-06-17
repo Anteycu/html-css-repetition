@@ -1,0 +1,95 @@
+/* main text color #000000  */
+/* minor text color rgba(0, 0, 0, 0.8) */
+/* white  #ffffff */
+/* accent  #18A0FB*/
+/* main bg color #ffffff */
+/* minor bg color #F5F5F5 */
+
+/* custom css values */
+
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+/* ultimate styles */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: aquamarine;
+}
+
+/* sections */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* feature */
+
+.feature-title {
+  color: var(--title-text-color);
+}
+
+/* works */
+
+.work-title {
+  color: var(--title-text-color);
+}
+
+/* partners */
+
+/* button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
