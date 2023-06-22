@@ -19,27 +19,28 @@
   </head>
   <body>
     <header class="page-header">
-      <nav class="container">
+      <nav class="container main-nav">
         <a href="./index.html" class="logo">
           <img
             src="./images/camera-logo.svg"
             alt="camera icon logo"
             width="50"
+            class="logo-img"
           />
           photo
         </a>
         <ul class="site-nav list">
-          <li><a href="#" class="link">Features</a></li>
-          <li><a href="#" class="link">Pricing</a></li>
-          <li><a href="#" class="link">Community</a></li>
-          <li><a href="#" class="link">Support</a></li>
-          <li>
+          <li class="item"><a href="#" class="link">Features</a></li>
+          <li class="item"><a href="#" class="link">Pricing</a></li>
+          <li class="item"><a href="#" class="link">Community</a></li>
+          <li class="item"><a href="#" class="link">Support</a></li>
+          <li class="item">
             <a href="./wireframes.html" class="link">Wireframes</a>
           </li>
         </ul>
         <ul class="auth-nav list">
-          <li><a href="#" class="button secondary">Log in</a></li>
-          <li><a href="#" class="button primary">Register</a></li>
+          <li class="item"><a href="#" class="button secondary">Log in</a></li>
+          <li class="item"><a href="#" class="button primary">Register</a></li>
         </ul>
       </nav>
     </header>
@@ -58,12 +59,12 @@
             <li class="feature">
               <h3 class="feature-title">Lorem</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-                ducimus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                at iure ratione eveniet. Eaque, eos?
               </p>
               <a href="#" class="feature-link button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="feature">
               <h3 class="feature-title">Lorem, ipsum dolor.</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -71,7 +72,7 @@
               </p>
               <a href="#" class="feature-link button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="feature">
               <h3 class="feature-title">Lorem, ipsum.</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -79,7 +80,7 @@
               </p>
               <a href="#" class="feature-link button secondary">Learn more</a>
             </li>
-            <li>
+            <li class="feature">
               <h3 class="feature-title">Lorem ipsum dolor sit.</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
@@ -91,7 +92,6 @@
           </ul>
         </div>
       </section>
-
       <section class="section no-padding">
         <div class="container">
           <h2 class="section-title">Masterpiece examples</h2>
@@ -102,11 +102,13 @@
                 alt="random picture"
                 width="750"
               />
-              <h3 class="work-title">Lorem ipsum dolor sit.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
-                delectus!
-              </p>
+              <div class="work-description">
+                <h3 class="work-title">Lorem ipsum dolor sit.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nisi, delectus!
+                </p>
+              </div>
             </li>
             <li class="work">
               <img
@@ -114,11 +116,13 @@
                 alt=""
                 width="750"
               />
-              <h3 class="work-title">Lorem ipsum dolor sit.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
-                delectus!
-              </p>
+              <div class="work-description">
+                <h3 class="work-title">Lorem ipsum dolor sit.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nisi, delectus!
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -126,47 +130,47 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">You`re in good company</h2>
-          <p class="section-description">
+          <p class="section-description centered">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             totam quos accusantium est aspernatur in.
           </p>
-          <ul class="partner-list list">
-            <li>
+          <ul class="partners list">
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
             </li>
-            <li>
+            <li class="partner">
               <a href="#"
                 ><img src="https://picsum.photos/170/75?blur" alt="banner"
               /></a>
@@ -174,11 +178,11 @@
           </ul>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <p class="section-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-            dolore numquam dicta repellat!
+      <section class="section invitation">
+        <div class="container invitation-content">
+          <p class="section-description no-margin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            facilis nihil unde dignissimos sit libero.
           </p>
 
           <a href="" class="button primary">Join Today</a>
